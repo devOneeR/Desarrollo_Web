@@ -1,0 +1,227 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #f9fbe7);
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 2em;
+    color: rgb(215, 42, 100);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p, label {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+input, select, button {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    margin: 10px auto;
+    font-size: 1em;
+    display: block;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: 0.3s ease;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+img {
+    border-radius: 12px;
+    width: 150px;
+    display: flex;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+iframe {
+    display: block;
+    margin: 30px auto;
+    border-radius: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-volver {
+    display: inline-block;
+    margin-top: 40px;
+    background-color: #28a745;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-size: 1em;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn-volver:hover {
+    background-color: #218838;
+}
+
+.message {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.warning {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+        .perfil-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .perfil-info {
+            flex: 1 1 250px;
+        }
+
+        .perfil-info h2 {
+            margin-bottom: 10px;
+        }
+
+        .perfil-info p {
+            margin: 5px 0;
+        }
+
+        .perfil-links a {
+            display: inline-block;
+            margin: 5px 8px 0 0;
+            font-size: 1.1em;
+            color: red;
+        }
+
+        .perfil-img {
+            flex: 0 0 250px;
+            text-align: right;
+        }
+
+        .perfil-img img {
+            width: 250px;
+            height: auto;
+        }
+
+        @media (max-width: 600px) {
+            .perfil-container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .perfil-img {
+                text-align: center;
+            }
+        }
+
+/* Css para la tarjeta */
+.tarjeta-container {
+            max-width: 800px;
+            margin: 60px auto;
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .tarjeta-info {
+            flex: 1 1 400px;
+        }
+
+        .tarjeta-info h2 {
+            font-size: 2em;
+            color: #007BFF;
+            margin-bottom: 10px;
+        }
+
+        .tarjeta-info p {
+            font-size: 1.1em;
+            margin: 8px 0;
+        }
+
+        .tarjeta-status {
+            margin-top: 20px;
+            font-weight: bold;
+            color: #388e3c;
+        }
+
+        .tarjeta-img {
+            flex: 0 0 150px;
+            text-align: center;
+        }
+
+        .tarjeta-img img {
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #007BFF;
+        }
+
+        .btn-volver {
+            display: inline-block;
+            margin-top: 40px;
+            background-color: #007BFF;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 1em;
+            transition: background 0.3s ease;
+        }
+
+        .btn-volver:hover {
+            background-color: #0056b3;
+        }
+
+        @media (max-width: 600px) {
+            .tarjeta-container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .tarjeta-img {
+                margin-bottom: 20px;
+            }
+        }
